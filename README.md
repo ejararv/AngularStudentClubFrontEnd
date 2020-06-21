@@ -1,6 +1,8 @@
 # StudentClub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+
+The program is intended for teachers who would like to simplify the reception of projects from their students. Also, this program can be used for competitions.
 
 ## Angular frontend for StudentClub
 
