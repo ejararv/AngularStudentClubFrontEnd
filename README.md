@@ -34,7 +34,7 @@ if npm version > 5.0 delete package-lock.json file  ( bug in npm 5.0 - this file
 npm install
 ````
 
-Now project use Angular CLI v.8.0.3 and Angular v.8.0.1
+Now project use Angular CLI v.9.1.0 and Angular v.9.2.4
 You can see current dependencies in [package.json](package.json) file.
 
 ## Development server
