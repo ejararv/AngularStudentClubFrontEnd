@@ -10,6 +10,7 @@ Warning: **client only**.
 
 ## Screenshot
 
+![Upload process](src/assets/img/upload.gif)
 ![Screenshot of StudentClub](https://)
   
 
