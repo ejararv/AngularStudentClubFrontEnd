@@ -1,10 +1,10 @@
-# StudentClub
+# StudyClub
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 The program is intended for teachers who would like to simplify the reception of projects from their students. Also, this program can be used for competitions.
 
-## Angular frontend for StudentClub
+## Angular frontend for StudyClub
 
 Warning: **client only**. 
   Use REST API from backend [WebAPIREST-CRUD-JWT](https://github.com/ejararv/WebAPIREST-CRUD-JWT.git)
