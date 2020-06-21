@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+
+<div class="page-header" filter-color="orange">
+  <div class="page-header-image" style="background-image:url(assets/img/bg3.jpg)"></div>
+  <div class="container">
+    <div class="col-md-12 content-center">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h2>Result List</h2>
+        </div>
+          <table class="table table-striped" style="background-color: rgba(255, 255, 255, 0.4);">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let cust of customers">
+                <td>{{ cust.name }}</td>
+                <td>{{ cust.age }}</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+</div>

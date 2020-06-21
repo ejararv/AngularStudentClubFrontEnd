@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="500">
+  <div class="container">
+    <div class="navbar-translate">
+      <a class="navbar-brand" [routerLink]="['/']" placement="bottom">
+        Study Club
+      </a>
+    </div>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/upload']">
+          <i class="now-ui-icons arrows-1_cloud-upload-94"></i>
+          <p>Upload</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/results']">
+          <i class="now-ui-icons files_paper"></i>
+          <p>Result List</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" *ngIf="isUserAuthenticated()" name='students' [routerLink]="['/students']">
+          <i class="now-ui-icons files_box"></i>
+          <p>Students base</p>
+        </a>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact']">
+            <i class="now-ui-icons ui-1_email-85"></i>
+            <p>Contact</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-neutral btn-sm btn-round" *ngIf="!isUserAuthenticated()" name='login' [routerLink]="['/login']">
+            <i class="now-ui-icons users_single-02"></i>
+            <p>LOGIN</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" *ngIf="isUserAuthenticated()" name='logout' (click)="logOut()">
+            <i class="now-ui-icons sport_user-run"></i>
+            <p>Logout</p>
+          </a>
+        </li>
+    </ul>
+  </div>
+</nav>

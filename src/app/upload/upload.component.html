@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+
+<div class="page-header" filter-color="orange">
+  <div class="page-header-image" style="background-image:url(assets/img/bg3.jpg)"></div>
+  <div class="container">
+
+    <div class="row" style="margin-bottom:15px;">
+      <div class="col-md-12 content-center">
+        <h5>Enter your name in the file name.</h5>
+        <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+        <button type="button" class="btn btn-success btn-round" id='upload' (click)="file.click()">Upload File</button>
+      </div>
+      <div class="col-md-12 content-center">
+        <span class="upload" *ngIf="progress > 0">
+          {{progress}}%
+        </span>
+        <span class="upload" *ngIf="message">
+          <h6>{{message}}</h6>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

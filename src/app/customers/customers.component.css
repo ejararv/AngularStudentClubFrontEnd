@@ -1,0 +1,10 @@
+.panel {
+    margin-top: 10%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .panel {
+        margin-top: 20%;
+    }
+}

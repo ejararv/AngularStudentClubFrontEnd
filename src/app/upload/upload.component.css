@@ -1,0 +1,18 @@
+.col-md-12 {
+    margin-top: 10%;
+}
+
+.upload{
+    font-weight: bold;
+    font-size: 700%;
+    color: rgba(255, 255, 255, 0.4);
+    margin-left: 15px;
+    line-height: 36px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .col-md-12 {
+        margin-top: 30%;
+    }
+}

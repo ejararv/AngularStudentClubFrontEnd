@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+
+<div class="page-header" filter-color="orange">
+  <div class="page-header-image" style="background-image:url(assets/img/bg3.jpg)"></div>
+  <div class="container">
+    <div class="row" style="margin-bottom:15px;" style="background-color: rgba(255, 255, 255, 0.4);">
+      <div class="col-md-12 content-center" >
+        <h2 class="title">Do you have questions?</h2>
+        <p class="description">You always can ask your teacher.</p>
+        <form class="contact-form" (submit)="sendEmail($event)">
+          <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+            <div class="input-group input-lg">
+              <input type="text" name="user_name" class="form-control" placeholder="Enter your name..." required>
+            </div>
+            <div class="input-group input-lg">
+              <input type="text" name="user_email" class="form-control" placeholder="Enter your email...">
+            </div>
+            <div class="textarea-container">
+              <textarea class="form-control" name="message" rows="4" cols="80"
+                placeholder="Type a message..."></textarea>
+            </div>
+            <div class="send-button">
+              <button class="btn btn-lg btn-primary btn-block btn-round" href="/contact" type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <span *ngIf="message">
+          <h6>{{message}}</h6>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
