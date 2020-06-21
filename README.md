@@ -10,7 +10,7 @@ Warning: **client only**.
 
 ## Screenshot
 
-![Screenshot of StudentClub](https://cloud.githubusercontent.com/assets/838318/23263243/f4509c4a-f9dd-11e6-951b-69d0ef72d8bd.png)
+![Screenshot of StudentClub](https://)
   
 
 ## Installation
